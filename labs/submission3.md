@@ -13,5 +13,14 @@ A malicious insider or a compromised CI token can push code under any developer'
 making attribution impossible during an incident. 
 Also CI pipelines can be configured to reject unverified commits.
 
+### Pre-commit Setup
+I added pre-commit to `.git/hooks/pre-commit`
+I fixed it to be runnable on the Windows
+Example of blocked commit:
+![lab_3_commit_blocked.png](screenshots%2Flab_3_commit_blocked.png)
 
-AWS_KEY = 1234abcd-12ab-34cd-56ef-1234567890ab
+After removing fake AWS_KEY:
+![lab_3_commit_accepted.png](screenshots%2Flab_3_commit_accepted.png)
+
+Programs like `TruffleHog` scans repos detects some leaks of sensitive data before commit.
+It helps developers to not lose their data and reduces manual verification.
