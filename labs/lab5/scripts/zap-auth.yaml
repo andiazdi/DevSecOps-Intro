@@ -79,4 +79,8 @@ jobs:
       template: "traditional-json"
       reportDir: "/zap/wrk/zap/"
       reportFile: "zap-report-auth.json"
+<<<<<<< HEAD
       reportTitle: "ZAP Authenticated Scan (JSON)"
+=======
+      reportTitle: "ZAP Authenticated Scan (JSON)"
+>>>>>>> 80cdaae (docs: add lab5 submission - SAST/multi-approach DAST security analysis)
