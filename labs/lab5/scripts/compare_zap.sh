@@ -62,4 +62,8 @@ print(f'  Unique URLs with findings: {len(urls)}')
 } | tee "$OUT"
 
 echo ""
+<<<<<<< HEAD
 echo "Saved to: $OUT"
+=======
+echo "Saved to: $OUT"
+>>>>>>> 80cdaae (docs: add lab5 submission - SAST/multi-approach DAST security analysis)
